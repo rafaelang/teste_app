@@ -10,6 +10,6 @@ setup(
     keywords='teste distribuição',
     description='Aplicação de teste para distribuição',
     packages=find_packages(),
-    install_requires=[],
+    install_requires=["requests"],
     test_suite='test',
 )
