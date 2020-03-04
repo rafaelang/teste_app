@@ -1,10 +1,12 @@
+import os
+
 import requests
 
 from teste_app import settigns
 
 
 def get_page():
-	with open("%s/teste.html" % __file__) as fp:
+	with open("%s/teste.html" % os.path.dirname(__file__)) as fp:
 		return fp.read()
 
 
