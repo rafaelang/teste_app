@@ -4,7 +4,7 @@ from teste_app import settigns
 
 
 def get_page():
-	with open("teste.html") as fp:
+	with open("%s/teste.html" % __file__) as fp:
 		return fp.read()
 
 
