@@ -1,1 +1,1 @@
-include teste.html
+recursive-include templates *
