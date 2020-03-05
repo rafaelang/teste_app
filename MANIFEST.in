@@ -1,1 +1,2 @@
+include teste_app/teste.html
 recursive-include teste_app/templates *

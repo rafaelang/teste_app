@@ -12,6 +12,5 @@ setup(
     packages=find_packages(),
     install_requires=["requests"],
     test_suite='test',
-    include_package_data=True,
-    package_data={'': ['teste.html']},
+    include_package_data=True
 )

@@ -9,7 +9,7 @@ def get_page():
     with open("%s/teste.html" % os.path.dirname(__file__)) as fp:
         data = fp.read()
 
-    with open("%s/tempaltes/template1.html" % os.path.dirname(__file__)) as fp:
+    with open("%s/templates/template1.html" % os.path.dirname(__file__)) as fp:
         data2 = fp.read()
 
     return data, data2
