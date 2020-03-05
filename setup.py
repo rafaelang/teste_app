@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='teste_app',
-    version='0.0.3',
+    version='0.0.4',
     url='https://github.com/rafaelang/teste_app',
     license='Apache 2.0 License',
     author='Rafael',
